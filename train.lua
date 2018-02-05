@@ -10,5 +10,5 @@ print(output)
 net:zeroGradParameters();
 gradInput = net:backward(input, torch.rand(10))
 
---print(#gradInput)
+print(#gradInput)
 
